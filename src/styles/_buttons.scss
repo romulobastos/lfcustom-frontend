@@ -1,0 +1,21 @@
+.btn {
+	display: inline-flex;
+	margin: 10px auto;
+	padding: 10px 15px;
+	background-color: var(--navy);
+	border: 2px solid transparent;
+	color: var(--white);
+	transition: all 0.2s;
+	text-decoration: none;
+}
+
+.btn.btn-ghost {
+	background-color: transparent;
+	border: 2px solid var(--navy);
+	color: var(--navy)
+}
+
+.btn.btn-ghost:hover {
+	background-color: var(--navy);
+	color: var(--white)
+}
